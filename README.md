@@ -11,7 +11,7 @@ Features were transcribed at large scale ( > 1:100 on-screen) by hand with refer
 
 1. <img src="https://live.staticflickr.com/65535/52063762845_8b3f358601_c.jpg" height='240' width='320' alt="lines" />    >>>>>      2. <img src="https://live.staticflickr.com/65535/52063762830_0fa600cd6e_c.jpg" height='240' width='320' alt="polygons" />
   
-3. <img src="https://github.com/ckpeck/ckpeck.github.io/blob/main/assessorblocks.JPG"  height='220' width='300' alt="assessor blocks" />  >>>>>>  4. <img src="https://live.staticflickr.com/65535/52063290543_605960f14d_c.jpg" height='240' width='320' alt="sidewalks" />
+3. <img src="https://live.staticflickr.com/65535/52063274916_541e55c27b_c.jpg"  height='220' width='300' alt="assessor blocks" />  >>>>>>  4. <img src="https://live.staticflickr.com/65535/52063290543_605960f14d_c.jpg" height='240' width='320' alt="sidewalks" />
 
 The initial scope of this current project was to utilize the workflow set out by Meli Harvey in her <a href="https://www.sidewalkwidths.nyc/#16.13/40.722933/-73.956565" target="_blank"> NYC Sidewalk Widths</a> website and <a href="https://github.com/meliharvey/sidewalkwidths-nyc" target="_blank">published Python notebook</a>. While I could process certain sections of San Francisco, I was unsuccessful at generating a comprehensive sidewalk dataset with attributed widths.
 Instead I used the total area of this sidewalk and began to look at pedestrian related traffic accidents, population by 2020 Census tract and current SFMTA Shared Spaces permits, either on the sidewalk or in the form of parklets in the street.
@@ -20,7 +20,7 @@ Instead I used the total area of this sidewalk and began to look at pedestrian r
 
 I intiially used Census tract spatial data and 2020 ACS Census population data, joining the traffic injury data to analyze at a more granular level. For the TIMs data, incidents that occurred on the interstate or freeways were filtered out, as the primary research is concerned with on the ground infrastructure and safety. At a Census tract scale, the occurence of incidents at the street level are concentrated in the downtown but more particularly in the Tenderloin neighborhood.
 
-<img src="https://github.com/ckpeck/ckpeck.github.io/blob/main/supdistr.JPG">
+<img src="https://live.staticflickr.com/65535/52063504524_6f54a39501_c.jpg">
 
 <img src="https://live.staticflickr.com/65535/52062224527_228e4a2b51.jpg">
 
@@ -49,6 +49,10 @@ While this is effects of these two factors as as likely correlation as causation
 
 ## Shared Spaces
 Shared Spaces is a program administered between SFMTA and SF DPW as these spaces operate in both the sidewalk and repurposing parking spaces for parklets and non-vehicle centered uses. These spaces sharply increased during COVID as restaurants and other businesses had few options in order to continue operations during the height of social distancing requirements and limited to prohibited indoor dining. I wanted to also look at the count of shared spaces permits, particularly those occupying the sidewalk and their relative density in different neighborhoods. 
+
+<img src = "https://live.staticflickr.com/65535/52063290548_e8abc85cd2_c.jpg">
+<small>Spread of shared spaces, purple indicating parklets and blue indicating sidewalk shared space permits</small>
+
 
 ## References
 Census tract 2020 TIGER boundaries, California filtered for San Francisco. https://www.census.gov/cgi-bin/geo/shapefiles/index.php 

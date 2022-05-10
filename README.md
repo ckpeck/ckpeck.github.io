@@ -13,7 +13,7 @@ Features were transcribed at large scale ( > 1:100 on-screen) by hand with refer
   
 3. <img src="https://github.com/ckpeck/ckpeck.github.io/blob/main/assessorblocks.JPG"  height='220' width='300' alt="assessor blocks" />  >>>>>>  4. <img src="https://github.com/ckpeck/ckpeck.github.io/blob/main/sidewalks.JPG" height='220' width='300' alt="sidewalks" />
 
-The initial scope of this current project was to utilize the workflow set out by Meli Harvey in her NYC Sidewalk Widths website and published Python notebook. While I could process certain sections of San Francisco, I was unsuccessful at generating a comprehensive sidewalk dataset with attributed widths.
+The initial scope of this current project was to utilize the workflow set out by Meli Harvey in her <a href="https://www.sidewalkwidths.nyc/#16.13/40.722933/-73.956565"> NYC Sidewalk Widths</a> website and <a href="https://github.com/meliharvey/sidewalkwidths-nyc">published Python notebook</a>. While I could process certain sections of San Francisco, I was unsuccessful at generating a comprehensive sidewalk dataset with attributed widths.
 Instead I used the total area of this sidewalk and began to look at pedestrian related traffic accidents, population by 2020 Census tract and current SFMTA Shared Spaces permits, either on the sidewalk or in the form of parklets in the street.
 
 ### Traffic Crashes by Supervisor District
@@ -41,6 +41,8 @@ Making sure we are not simply evaluation a population map, I explored the levels
 I proceeded, attributing the sidewalk polygons through a spatial join with the supervisor districts and summing the total area then joining back to the initial Supervisor District polygons. Here, I normalized by the total population in the district, achieving a ratio of sidewalk area to total residential population. Despite the fact that this area of downtown and SOMA additionally swell during the daytime to accomodate workforce commuters, the ratio of sidewalks to population was lowest here.
 
 <img src = "https://github.com/ckpeck/ckpeck.github.io/blob/main/rateofsidewalkareabypop.png">
+
+## Shared Spaces
 
 ## References
 Census tract 2020 TIGER boundaries, California filtered for San Francisco. https://www.census.gov/cgi-bin/geo/shapefiles/index.php 

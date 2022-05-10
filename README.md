@@ -43,7 +43,7 @@ Taking land uses by parcel from the SF Planning Department, I looked at the dist
 
 I proceeded, attributing the sidewalk polygons through a spatial join with the supervisor districts and summing the total area then joining back to the initial Supervisor District polygons. Here, I normalized by the total population in the district, achieving a ratio of sidewalk area to total residential population. Despite the fact that this area of downtown and SOMA additionally swell during the daytime to accomodate workforce commuters, the ratio of sidewalks to population was lowest here.
 
-<img src = "https://github.com/ckpeck/ckpeck.github.io/blob/main/rateofsidewalkareabypop.png">
+<img src = "https://live.staticflickr.com/65535/52063753630_8f8c10f304.jpg">
 
 While this is effects of these two factors as as likely correlation as causation, the high incidence of pedestrian injuries along with the highest density and most limited sidewalk space given the population in District 6, it is recommended to explore options of widened sidewalks in that particular region. 
 

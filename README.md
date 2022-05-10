@@ -22,7 +22,7 @@ I intiially used Census tract spatial data and 2020 ACS Census population data, 
 
 <img src="https://github.com/ckpeck/ckpeck.github.io/blob/main/supdistr.JPG">
 
-<img src="https://github.com/ckpeck/ckpeck.github.io/blob/main/pedcrashes_2020censustracts.png">
+<img src="https://live.staticflickr.com/65535/52062224527_228e4a2b51.jpg">
 
 Zooming out to the Supervisor District level, this remained true with District 6 leading in crashes with District 3 which includes North Beach and Nob Hill and District 9 which includes the Mission and Bernal Heights close behind.
 
@@ -32,7 +32,7 @@ Looking at strictly tabular data, the crash and pedestrian involved crash rates 
 
 <a href="https://tims.berkeley.edu/tools/gismap/"><img src="https://github.com/ckpeck/ckpeck.github.io/blob/main/timcrashgraph.png"></a>
 <img src = "https://github.com/ckpeck/ckpeck.github.io/blob/main/timspedratecrashgraph.png">
-<br><small>Data from the Transportation Injury Mapping System (TIMS) </small></br>
+<br><small>Data from the Transportation Injury Mapping System (TIMS) </small>
 
 Making sure we are not simply evaluation a population map, I explored the levels of population density which is not the highest in District 6 (<small><i>Open space such as Golden Gate Park, McLaren Park, and Lake Merced were not removed from the total area of the supervisor districts</i></small>)
 

@@ -9,9 +9,9 @@ Prior Data Development
 In early 2018, the Department of Technology’s SFGIS division started to extend earlier right-of-way (RoW) delineation efforts that leveraged the Department of Public Works (PW) basemap and I was brought on as an intern to begin the process. The initial scope was limited to beginning digitization of a planimetric geospatial line layer in order to develop specifications to place a request for proposal. Instead, myself along with my SFGIS supervisor developed and completed the digitization and attribution effort in house.
 Features were transcribed at large scale ( > 1:100 on-screen) by hand with reference to four years' AccuPlus 76mm/3-inch orthoimagery accepted as 95% within 60cm absolute horizontally. I used these lines to build polygons around official Assessor blocks. These were then processed by taking the symmetrical difference of those polygons with the ASR blocks to produce the walkable splits of public right away, or sidewalks. 
 
-1. <img src="https://live.staticflickr.com/65535/52063762845_8b3f358601_c.jpg" height='183' width='240' alt="lines" /> > 2. <img src="https://live.staticflickr.com/65535/52063762830_0fa600cd6e_c.jpg" height='183' width='240' alt="polygons" />
+1. <img src="https://live.staticflickr.com/65535/52063762845_8b3f358601_c.jpg" height='183' width='240' alt="lines" /> 2. <img src="https://live.staticflickr.com/65535/52063762830_0fa600cd6e_c.jpg" height='183' width='240' alt="polygons" />
   
-3. <img src="https://live.staticflickr.com/65535/52063274916_541e55c27b_c.jpg"  height='183' width='240' alt="assessor blocks" /> > 4. <img src="https://live.staticflickr.com/65535/52063290543_605960f14d_c.jpg" height='183' width='240' alt="sidewalks" />
+3. <img src="https://live.staticflickr.com/65535/52063274916_541e55c27b_c.jpg"  height='183' width='240' alt="assessor blocks" /> 4. <img src="https://live.staticflickr.com/65535/52063290543_605960f14d_c.jpg" height='183' width='240' alt="sidewalks" />
 
 The initial scope of this current project was to utilize the workflow set out by Meli Harvey in her <a href="https://www.sidewalkwidths.nyc/#16.13/40.722933/-73.956565" target="_blank"> NYC Sidewalk Widths</a> website and <a href="https://github.com/meliharvey/sidewalkwidths-nyc" target="_blank">published Python notebook</a>. While I could process certain sections of San Francisco, I was unsuccessful at generating a comprehensive sidewalk dataset with attributed widths.
 Instead I used the total area of this sidewalk and began to look at pedestrian related traffic accidents, population by 2020 Census tract and current SFMTA Shared Spaces permits, either on the sidewalk or in the form of parklets in the street.
@@ -53,6 +53,9 @@ Shared Spaces is a program administered between SFMTA and SF DPW as these spaces
 <img src = "https://live.staticflickr.com/65535/52063290548_e8abc85cd2_c.jpg">
 <small>Spread of shared spaces, purple indicating parklets and blue indicating sidewalk shared space permits</small>
 
+Aggregating sidewalk area and calculating as a ratio per sidewalk shared space, District 3 came out with the highest rate. This was unsurprising given the curbside dining in North Beach. Districts 6 and 8 were next. Where District 8 remained lower on the traffic incidents and density, both Districts 3 and 6 exhibit high levels of need for expansion of public right of way.
+
+<img src = "https://live.staticflickr.com/65535/52063536839_2a6e35120c.jpg">
 
 ## References
 Census tract 2020 TIGER boundaries, California filtered for San Francisco. https://www.census.gov/cgi-bin/geo/shapefiles/index.php 

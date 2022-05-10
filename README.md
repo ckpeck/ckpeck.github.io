@@ -20,6 +20,8 @@ Instead I used the total area of this sidewalk and began to look at pedestrian r
 
 I intiially used Census tract spatial data and 2020 ACS Census population data, joining the traffic injury data to analyze at a more granular level. For the TIMs data, incidents that occurred on the interstate or freeways were filtered out, as the primary research is concerned with on the ground infrastructure and safety. At a Census tract scale, the occurence of incidents at the street level are concentrated in the downtown but more particularly in the Tenderloin neighborhood.
 
+<img src="https://github.com/ckpeck/ckpeck.github.io/blob/main/supdistr.JPG">
+
 <img src="https://github.com/ckpeck/ckpeck.github.io/blob/main/pedcrashes_2020censustracts.png">
 
 Zooming out to the Supervisor District level, this 

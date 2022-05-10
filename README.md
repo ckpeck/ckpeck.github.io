@@ -38,6 +38,9 @@ Making sure we are not simply evaluation a population map, I explored the levels
 
 <img src = "https://github.com/ckpeck/ckpeck.github.io/blob/main/populationdensity.png">
 
+Taking land uses by parcel from the SF Planning Department, I looked at the distribution of uses within the districts. Some were not-shockling residential. While others I had to return to the map to see if the numbers were off. All of Treasure Island was considered Open Space which I removed. A large number of current developments are unclassified or considered vacant despite incoming density. Yet some were surprising given the residential density as compared for the low or high percent of residential land use in the district.
+<img src = "https://github.com/ckpeck/ckpeck.github.io/blob/main/landusebysupwithper.png">
+
 I proceeded, attributing the sidewalk polygons through a spatial join with the supervisor districts and summing the total area then joining back to the initial Supervisor District polygons. Here, I normalized by the total population in the district, achieving a ratio of sidewalk area to total residential population. Despite the fact that this area of downtown and SOMA additionally swell during the daytime to accomodate workforce commuters, the ratio of sidewalks to population was lowest here.
 
 <img src = "https://github.com/ckpeck/ckpeck.github.io/blob/main/rateofsidewalkareabypop.png">

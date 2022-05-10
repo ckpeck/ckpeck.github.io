@@ -10,7 +10,6 @@ In early 2018, the Department of Technology’s SFGIS division started to extend
 Features were transcribed at large scale ( > 1:100 on-screen) by hand with reference to four years' AccuPlus 76mm/3-inch orthoimagery accepted as 95% within 60cm absolute horizontally. I used these lines to build polygons around official Assessor blocks. These were then processed by taking the symmetrical difference of those polygons with the ASR blocks to produce the walkable splits of public right away, or sidewalks. 
 
 1. <img src="https://live.staticflickr.com/65535/52063762845_8b3f358601_c.jpg" height='183' width='240' alt="lines" /> 2. <img src="https://live.staticflickr.com/65535/52063762830_0fa600cd6e_c.jpg" height='183' width='240' alt="polygons" />
-  
 3. <img src="https://live.staticflickr.com/65535/52063274916_541e55c27b_c.jpg"  height='183' width='240' alt="assessor blocks" /> 4. <img src="https://live.staticflickr.com/65535/52063290543_605960f14d_c.jpg" height='183' width='240' alt="sidewalks" />
 
 The initial scope of this current project was to utilize the workflow set out by Meli Harvey in her <a href="https://www.sidewalkwidths.nyc/#16.13/40.722933/-73.956565" target="_blank"> NYC Sidewalk Widths</a> website and <a href="https://github.com/meliharvey/sidewalkwidths-nyc" target="_blank">published Python notebook</a>. While I could process certain sections of San Francisco, I was unsuccessful at generating a comprehensive sidewalk dataset with attributed widths.
@@ -35,7 +34,7 @@ Looking at strictly tabular data, the crash and pedestrian involved crash rates 
 <img src = "https://live.staticflickr.com/65535/52063753605_25f8298608_c.jpg">
 <br><small>Data from the Transportation Injury Mapping System (TIMS) </small>
 
-Making sure we are not simply evaluation a population map, I explored the levels of population density which is not the highest in District 6 (<small><i>Open space such as Golden Gate Park, McLaren Park, and Lake Merced were not removed from the total area of the supervisor districts</i></small>)
+<br>Making sure we are not simply evaluation a population map, I explored the levels of population density which is not the highest in District 6 (<small><i>Open space such as Golden Gate Park, McLaren Park, and Lake Merced were not removed from the total area of the supervisor districts</i></small>)
 
 <img src = "https://live.staticflickr.com/65535/52063495434_f11ecaaa54.jpg">
 
@@ -52,6 +51,8 @@ While this is effects of these two factors as as likely correlation as causation
 Shared Spaces is a program administered between SFMTA and SF DPW as these spaces operate in both the sidewalk and repurposing parking spaces for parklets and non-vehicle centered uses. These spaces sharply increased during COVID as restaurants and other businesses had few options in order to continue operations during the height of social distancing requirements and limited to prohibited indoor dining. I wanted to also look at the count of shared spaces permits, particularly those occupying the sidewalk and their relative density in different neighborhoods. 
 
 <img src = "https://live.staticflickr.com/65535/52063290548_e8abc85cd2_c.jpg">
+
+
 <small>Spread of shared spaces, purple indicating parklets and blue indicating sidewalk shared space permits</small>
 
 Aggregating sidewalk area and calculating as a ratio per sidewalk shared space, District 3 came out with the highest rate. This was unsurprising given the curbside dining in North Beach. Districts 6 and 8 were next. Where District 8 remained lower on the traffic incidents and density, both Districts 3 and 6 exhibit high levels of need for expansion of public right of way.

@@ -36,7 +36,7 @@ Looking at strictly tabular data, the crash and pedestrian involved crash rates 
 
 Making sure we are not simply evaluation a population map, I explored the levels of population density which is not the highest in District 6 (<small><i>Open space such as Golden Gate Park, McLaren Park, and Lake Merced were not removed from the total area of the supervisor districts</i></small>)
 
-<img src = "https://github.com/ckpeck/ckpeck.github.io/blob/main/populationdensity.png">
+<img src = "https://live.staticflickr.com/65535/52063495434_f11ecaaa54.jpg">
 
 Taking land uses by parcel from the SF Planning Department, I looked at the distribution of uses within the districts. Some were not-shockling residential. While others I had to return to the map to see if the numbers were off. All of Treasure Island was considered Open Space which I removed. A large number of current developments are unclassified or considered vacant despite incoming density. Yet some were surprising given the residential density as compared for the low or high percent of residential land use in the district.
 <img src = "https://github.com/ckpeck/ckpeck.github.io/blob/main/landusebysupwithper.png">

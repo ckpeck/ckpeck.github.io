@@ -30,6 +30,9 @@ Looking at strictly tabular data, the crash and pedestrian involved crash rates 
 
 Data from the Transportation Injury Mapping System (TIMS) 
 
+Making sure we are not simply evaluation a population map, I explored the levels of population density which is not the highest in District 6 (**though likely also with the inclusion of Treasure Island, and open space such as Golden Gate Park or McLaren Park were not removed from the total area of the supervisor districts)
+
+<img src = "https://github.com/ckpeck/ckpeck.github.io/blob/main/populationdensity.png">
 
 ### Embedding a Carto Map:
 <iframe width="100%" height="520" frameborder="0" src="https://ifarah.carto.com/builder/f16bfc2b-9f15-4688-83d3-e31562c7823b/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>

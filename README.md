@@ -24,7 +24,9 @@ I intiially used Census tract spatial data and 2020 ACS Census population data, 
 
 <img src="https://github.com/ckpeck/ckpeck.github.io/blob/main/pedcrashes_2020censustracts.png">
 
-Zooming out to the Supervisor District level, this 
+Zooming out to the Supervisor District level, this remained true with District 6 leading in crashes with District 3 which includes North Beach and Nob Hill and District 9 which includes the Mission and Bernal Heights close behind.
+
+<img src "https://github.com/ckpeck/ckpeck.github.io/blob/main/crashesbysupdist.png">
 
 Looking at strictly tabular data, the crash and pedestrian involved crash rates are starkly highest in District 6, even when normalizing for population.
 
@@ -39,9 +41,6 @@ Making sure we are not simply evaluation a population map, I explored the levels
 I proceeded, attributing the sidewalk polygons through a spatial join with the supervisor districts and summing the total area then joining back to the initial Supervisor District polygons. Here, I normalized by the total population in the district, achieving a ratio of sidewalk area to total residential population. Despite the fact that this area of downtown and SOMA additionally swell during the daytime to accomodate workforce commuters, the ratio of sidewalks to population was lowest here.
 
 <img src = "https://github.com/ckpeck/ckpeck.github.io/blob/main/rateofsidewalkareabypop.png">
-
-### Embedding a Carto Map:
-<iframe width="100%" height="520" frameborder="0" src="https://ifarah.carto.com/builder/f16bfc2b-9f15-4688-83d3-e31562c7823b/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 ## References
 Census tract 2020 TIGER boundaries, California filtered for San Francisco. https://www.census.gov/cgi-bin/geo/shapefiles/index.php 

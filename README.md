@@ -30,8 +30,8 @@ Zooming out to the Supervisor District level, this remained true with District 6
 
 Looking at strictly tabular data, the crash and pedestrian involved crash rates are starkly highest in District 6, even when normalizing for population.
 
-<a href="https://tims.berkeley.edu/tools/gismap/"><img src="https://github.com/ckpeck/ckpeck.github.io/blob/main/timcrashgraph.png"></a>
-<img src = "https://github.com/ckpeck/ckpeck.github.io/blob/main/timspedratecrashgraph.png">
+<a href="https://live.staticflickr.com/65535/52063495409_d2b2ae9498_c.jpg"></a>
+<img src = "https://live.staticflickr.com/65535/52063753605_25f8298608_c.jpg">
 <br><small>Data from the Transportation Injury Mapping System (TIMS) </small>
 
 Making sure we are not simply evaluation a population map, I explored the levels of population density which is not the highest in District 6 (<small><i>Open space such as Golden Gate Park, McLaren Park, and Lake Merced were not removed from the total area of the supervisor districts</i></small>)

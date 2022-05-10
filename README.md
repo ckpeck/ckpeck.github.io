@@ -28,11 +28,15 @@ Looking at strictly tabular data, the crash and pedestrian involved crash rates 
 
 <a href="https://tims.berkeley.edu/tools/gismap/"><img src="https://github.com/ckpeck/ckpeck.github.io/blob/main/timcrashgraph.png"></a>
 <img src = "https://github.com/ckpeck/ckpeck.github.io/blob/main/timspedratecrashgraph.png">
-<small>Data from the Transportation Injury Mapping System (TIMS) </small>
+<br><small>Data from the Transportation Injury Mapping System (TIMS) </small></br>
 
 Making sure we are not simply evaluation a population map, I explored the levels of population density which is not the highest in District 6 (<small><i>Open space such as Golden Gate Park, McLaren Park, and Lake Merced were not removed from the total area of the supervisor districts</i></small>)
 
 <img src = "https://github.com/ckpeck/ckpeck.github.io/blob/main/populationdensity.png">
+
+I proceeded, attributing the sidewalk polygons through a spatial join with the supervisor districts and summing the total area then joining back to the initial Supervisor District polygons. Here, I normalized by the total population in the district, achieving a ratio of sidewalk area to total residential population. Despite the fact that this area of downtown and SOMA additionally swell during the daytime to accomodate workforce commuters, the ratio of sidewalks to population was lowest here.
+
+<img src = "https://github.com/ckpeck/ckpeck.github.io/blob/main/rateofsidewalkareabypop.png">
 
 ### Embedding a Carto Map:
 <iframe width="100%" height="520" frameborder="0" src="https://ifarah.carto.com/builder/f16bfc2b-9f15-4688-83d3-e31562c7823b/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>

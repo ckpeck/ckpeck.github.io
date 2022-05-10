@@ -26,11 +26,12 @@ I intiially used Census tract spatial data and 2020 ACS Census population data, 
 
 Zooming out to the Supervisor District level, this remained true with District 6 leading in crashes with District 3 which includes North Beach and Nob Hill and District 9 which includes the Mission and Bernal Heights close behind.
 
-<img src = "https://github.com/ckpeck/ckpeck.github.io/blob/main/crashesbysupdist.png">
+<img src = "https://live.staticflickr.com/65535/52063544269_fa6a702d0f.jpg">
 
 Looking at strictly tabular data, the crash and pedestrian involved crash rates are starkly highest in District 6, even when normalizing for population.
 
-<a href="https://live.staticflickr.com/65535/52063495409_d2b2ae9498_c.jpg"></a>
+<img src = "https://live.staticflickr.com/65535/52063495409_d2b2ae9498_c.jpg">
+<a href="https://tims.berkeley.edu/tools/gismap/"></a>
 <img src = "https://live.staticflickr.com/65535/52063753605_25f8298608_c.jpg">
 <br><small>Data from the Transportation Injury Mapping System (TIMS) </small>
 
